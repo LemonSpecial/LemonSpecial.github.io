@@ -1,0 +1,5 @@
+title: My Site
+description: "一个用 Jekyll建的静态站"
+theme: minima
+plugins:
+  - jekyll-feed
