@@ -1,5 +1,8 @@
-title: My Site
-description: "一个用 Jekyll建的静态站"
+title: LemonSpecial
+description: "My GitHub Pages Site"
 theme: minima
-plugins:
-  - jekyll-feed
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
