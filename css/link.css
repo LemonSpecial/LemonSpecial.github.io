@@ -1,0 +1,36 @@
+.link{
+    position: absolute;
+    border-radius: 15px;
+    background-color: rgba(253, 246, 217, 1);
+    top: 10%;
+    left: 5%;
+    width: 90%;
+    height: 85%;
+    display: flex;              /* 使用 flex 布局 */
+    justify-content: center;    /* 水平居中 */
+    align-items: center;        /* 垂直居中 */
+}
+
+table{
+    border-collapse: collapse;  /* 合并边框，让线条更干净 */
+    width: 60%;                 /* 表格宽度 */
+    font-size: large;
+    font-weight: bold;
+}
+
+table td{
+    border: 2px solid #8f886b;  /* 表格边框颜色 */
+    padding: 15px 30px;         /* 单元格内边距 */
+    text-align: center;         /* 文字居中 */
+}
+
+/* 第一列（标签列）样式 */
+table td:first-child{
+    background-color: rgba(143, 136, 107, 0.2);  /* 浅色背景区分 */
+    width: 30%;                 /* 第一列宽度 */
+}
+
+/* 第二列（内容列）样式 */
+table td:last-child{
+    background-color: rgba(255, 255, 255, 0.5);  /* 白色半透明背景 */
+}

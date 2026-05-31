@@ -1,0 +1,166 @@
+.info{
+    position: absolute;
+    border-radius: 15px;
+    background-color: rgba(253, 246, 217, 1);
+    top: 10%;
+    left: 5%;
+    width: 25%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myimg{
+    position: relative;
+    top: 5%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ff2626;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+}
+
+.myimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.jj {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.jj ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jj ul li {
+    text-align: center;
+    color: #333;
+}
+
+.skill-title {
+    font-size: 150%;
+    font-weight: bolder;
+    margin-top: 5%;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.skill-title::after {
+    position: absolute;
+    transform: translateX(-50%);
+    width: 500%;
+    height: 3px;
+    background-color: #ff2626;
+    border-radius: 2px;
+}
+
+.skill-category {
+    margin-top: 20px;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 15px;
+}
+
+.skill-list span {
+    display: inline-block;
+    background-color: rgba(255, 38, 38, 0.15);
+    color: #333;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid rgba(255, 38, 38, 0.3);
+    transition: all 0.3s ease;
+}
+
+.skill-list span:hover {
+    background-color: rgba(255, 38, 38, 0.25);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.myinfo {
+    position: absolute;
+    border-radius: 15px;
+    background-color: rgba(253, 246, 217, 1);
+    top: 10%;
+    left: 31%;
+    width: 64%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.myinfo table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.myinfo table th,
+.myinfo table td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    color: #333;
+}
+
+.myinfo table th {
+    background-color: rgba(0, 0, 0, 0.05);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.myinfo table tr:last-child td {
+    border-bottom: none;
+}
+
+.myinfo table tr:hover {
+    background-color: rgba(255, 191, 0, 0.5);
+    transition: background-color 0.3s ease;
+}
+
+.myinfo table td img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.myinfo table:first-of-type td:first-child {
+    font-weight: bold;
+}
+
+.myinfo table:first-of-type td:nth-child(3) {
+    text-align: left;
+    padding-left: 20px;
+}
