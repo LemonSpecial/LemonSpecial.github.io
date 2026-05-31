@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 欢迎
+title: welcome
 ---
 
 # 👋 Hello，This is my GitHub Pages size
